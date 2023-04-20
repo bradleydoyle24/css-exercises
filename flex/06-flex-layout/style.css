@@ -17,11 +17,17 @@ ul {
 a:link, 
 a:visited {
   text-decoration: none;
+  color: #555555;
 }
 
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  color: #555555;
+}
+
+.footer {
+  background-color: #EDEDED;
 }
 
 .left-links {
